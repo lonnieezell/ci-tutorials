@@ -52,5 +52,7 @@ class View extends BaseView
      *
      * @var class-string<ViewDecoratorInterface>[]
      */
-    public array $decorators = [];
+    public array $decorators = [
+        \App\Libraries\Snippets::class
+    ];
 }
